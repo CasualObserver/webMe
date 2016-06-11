@@ -1,0 +1,27 @@
+dir
+cd doc
+cd Documents
+cd proj
+cd Projects
+git status
+cd exp
+cd experiments
+git status
+git add -u
+git add code.txt
+git commit -m "test"
+git push
+cd ..
+git clone https://github.com/CasualObserver/webMe.git
+cd webMe
+dir
+git branch
+git branch feature/webMVideoUpload
+git branch
+git checkout feature/webMVideoUpload
+git branch
+git push
+git push --set-upstream origin feature/webMVideoUpload
+git checkout master
+git branch
+DOSKEY /HISTORY >historyCMD.txt
